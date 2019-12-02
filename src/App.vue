@@ -4,8 +4,8 @@
       <nav>
         <ul>
           <li class="nav-item">
-            <img class="logo" src="./assets/build-a-bot-logo.png" />
-            Build a Bot
+              <img class="logo" src="./assets/build-a-bot-logo.png" />
+              Build a Bot
           </li>
         </ul>
       </nav>
@@ -21,9 +21,7 @@ import RobotBuilder from './build/RobotBuilder.vue';
 
 export default {
   name: 'app',
-  components: {
-    RobotBuilder,
-  },
+  components: RobotBuilder,
 };
 </script>
 
@@ -63,5 +61,9 @@ ul {
 .logo {
   vertical-align: middle;
   height: 30px;
+}
+.nav-link {
+  text-decoration: none;
+  color: inherit;
 }
 </style>
