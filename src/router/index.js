@@ -7,12 +7,11 @@ import RobotBuilder from '../build/RobotBuilder.vue';
 Vue.use(Router);
 
 export default new Router({
-  router: [{
+  routes: [{
     path: '/',
     name: 'Home',
     component: HomePage,
-  },
-  {
+  }, {
     path: '/build',
     name: 'Build',
     component: RobotBuilder,
